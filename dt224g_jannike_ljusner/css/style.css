@@ -138,3 +138,56 @@ nav a:hover {
     font-size: 0.95rem;
     line-height: 1.6;
 }
+
+/* --- Det grå blocket för aktiviteter --- */
+.activities-wrapper {
+    background-color: #e5e5e5; 
+    width: 100%;
+    padding: 40px 20px; 
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.activities-wrapper h2 {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+
+/* --- Aktivitetskort (Vita boxar) --- */
+.card {
+    background-color: #ffffff;
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card:last-child {
+    margin-bottom: 0; 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-content {
+    padding: 25px 20px;
+    text-align: left;
+}
+
+.card-content h3 {
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.card-content p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.info-box .btn {
+    margin-top: 20px; 
+}
