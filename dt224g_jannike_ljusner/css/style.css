@@ -1,0 +1,140 @@
+/* --- Grundinställningar --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* --- Header & Meny --- */
+header {
+    background-color: #ffffff;
+    max-width: 480px;
+    width: 100%;
+    margin: 20px auto 15px auto;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.logo-container img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    padding: 15px 0;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+nav li:last-child {
+    border-bottom: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- Hero-sektion --- */
+.hero {
+    width: 100%;
+    margin: 0 0 15px 0;
+    background-color: #ffffff;
+    border-radius: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content {
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.hero h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+/* --- Knapp-styling --- */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #d1d1d1;
+    color: #333333;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background-color: #333333; 
+    color: #ffffff; /* Håller texten vit och läsbar */
+}
+
+/* --- Fullbreddsstreck kant i kant --- */
+.full-width-line {
+    width: 100%;
+    height: 1px; /* Tunt och fint streck */
+    background-color: #e5e5e5;  
+    margin: 20px 0;
+}
+
+/* --- Textsektioner --- */
+.info-box {
+    max-width: 480px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.info-box h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.info-box p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
